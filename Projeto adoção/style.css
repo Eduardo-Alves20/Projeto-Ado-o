@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Crimson+Text:ital,wght@1,600&family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Crimson+Text:ital,wght@1,600&family=Ms+Madi&family=Ubuntu&display=swap');
+*{
+    
+    margin: 0 ; 
+    box-sizing: border-box;
+    text-decoration: none;  
+   
+}*/
+body {
+    font-size: 100%;
+    background-color: #cecece;
+    justify-content: space-evenly;
+    display: inline-block;
+    
+  }
+  .cabecalho {
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2252b9;
+    height: 100px;
+
+  }
+  .cabecalho-imagem {
+    height: 66px;
+    
+  }
+  .cabecalho-menu{
+    display: flex;
+    gap: 32px;
+    padding-left: 30px;
+    margin: 30px;
+  }
+  .cabecalho-menu-item {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif; 
+    display: inline-block;
+    padding: 20px;
+    
+  }
+  .cabecalho-menu-item a:hover {
+  color: green;
+  }
+  .conteudo{
+    border-top: 0.4px solid #000000;
+  }
+  .conteudo-principal{
+display: flex;
+flex-direction: row;
+align-items: center;
+
+justify-content: space-around;
+  }
+  .conteudo-principal-imagem{
+  width: 100%;
+  line-height:0
+ 
+  }
+  .conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .conteudo-principal-escrito-titulo{
+    font-family: "Lilita One", cursive;
+    font-size: 35px;
+text-align: center;
+    
+  
+   
+  }
+  .conteudo-secundario-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+  }
+.imagem-subtitulo{
+  width: 600px;
+  height: 350px;
+  float: left;
+
+}
+.conteudo-principal-escrito-subtitulo{
+  background-color: aqua;
+  
+
+}
+.text-1{
+  font-family: 'Combo', cursive;
+  font-size: 30px;
+  text-align: center;
+  
+}
+.text-2{
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+  font-size: 22px;
+}
+.text-3{
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+  font-size: 22px;
+  
+}
+.foto{
+clear: both;
+display: flex;
+ width: 600px;
+ margin: 0 auto; 
+}
+.Titulo{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  color: #2ecfa7;
+  text-align: center;
+ 
+}
+.subtitulo{
+  font-family: 'Crimson Text', serif;
+  font-size: 19px;
+  display: flex;
+  text-align: center;
+}
+.rodape{
+  background-color: #2ecfa7;
+  display: flex;
+  align-items: center;
+  justify-content:left
+}
+.logo-empresa{
+  width: 150px;
+  background-color: #2ecfa7;
+  float: left;
+}
+.empresa{
+  padding-left: 1200px;
+  flex-wrap: nowrap;
+}
+er.cabecalho .cabecalho-menu a:hov{
+  color: black;
+}
+.fundo{
+  background-color: #53f3b0;
+}
